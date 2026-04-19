@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Riziq</title>
+     
+    <style>
+        body {
+            margin: 10px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial;
+            color: white;
+
+            /* background animasi */
+            background: linear-gradient(-45deg, blue, white, black, #ff00ff);
+            background-size: 400% 400%;
+            animation: gradientMove 6s ease infinite;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+h1 {
+    position: absolute;
+    color: blue;
+    text-shadow: blue;
+    font-size: 30px;
+    top: 10px;        /* ke atas */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+        .foto {
+            position: absolute;
+            top: 350px;
+            left: 1px;
+            padding: 6px;
+            background: linear-gradient(45deg, blue, black, white);
+            border-radius: 15px;
+        }
+
+        .hm {
+            position: absolute;
+            top: 650px;
+            right: 10px;
+            padding: 6px;
+            background: linear-gradient(45deg, blue, black, white);
+            border-radius: 15px;
+        }
+
+        h5 {
+            position: absolute;
+            font-size: 80px;
+            top: 325px;
+            right: 40px;
+        }
+
+        h6 {
+            position: absolute;
+            font-size: 80px;
+            top: 550px;
+            left: 30px;
+        }
+        
+        hh {
+    position: absolute;
+    font-weight: 900;
+    color: black;
+    top: 970px;
+    bottom: 0px;   /* nempel bawah */
+    width: 100%;
+    text-align: center;
+}
+form {
+    position: absolute;
+    bottom: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+}
+    </style>
+
+</head>
+
+<body>
+
+   <h1>SELAMAT DATANG DI WEB RIZIQ</h1>
+
+    <div class="foto">
+        <img src="riziq.jpg" width="170" height="250">
+    </div>
+
+    <div class="hm">
+        <img src="hm.jpg" width="170" height="250">
+    </div>
+  <form>
+  
+
+<form action="https://formspree.io/f/xgoryqwr method="POST">
+    
+    <h3>Ajukan Pertanyaan</h3>
+
+
+    <textarea name="pesan" placeholder="Tulis pertanyaan kamu..." required></textarea>
+    <br><br>
+
+    <button type="submit">Kirim</button>
+
+</form>
+
+  
+    <h5>🔥</h5>
+    <h6>🚀</h6>
+    
+    <hh>Aku riziq abdullah alhasni,umur ku 15 tahun,aku tinggal di desa bobalo kecamatan palasa,dan sekolah di smp negeri 6 tomini</hh>
+
+</body
